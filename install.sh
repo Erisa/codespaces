@@ -18,4 +18,4 @@ npm i -g miniflare@v2.0.0-next.2
 npm i -g @railway/cli
 
 # i can handle signing in to these myself thank you very much, no need to do it here
-
+# actually i just noticed "Codespaces Secrets" area so i might do env vars, wow
