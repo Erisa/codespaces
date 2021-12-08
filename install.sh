@@ -2,7 +2,6 @@
 
 # these are definitely NOT dotfiles
 # github just requires that repo name for running a script in every codespace
-# ... if this even works
 
 # sign everything in codespaces
 git config --global commit.gpgsign true
