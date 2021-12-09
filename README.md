@@ -1,4 +1,9 @@
-# https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account#dotfiles
+# Erisa's script that runs when a GitHub Codespace is created
 
-## please dont star this repo or i will be sad
-I don't actually have any dotfiiles I just want to bully Codespaces
+Right now this basically just installs some common utilities I might use. Maybe later it might do more.
+
+See: https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-codespaces-for-your-account#dotfiles
+
+I am not a person that uses dotfiles on machines, everything here is in [install.sh](install.sh) which you can visit to see what I'm running for my codespaces.
+
+🤗
