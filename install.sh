@@ -11,7 +11,7 @@ npm i -g serve
 
 # deploying and previewing workers
 npm i -g @cloudflare/wrangler
-npm i -g miniflare@v2.0.0-rc.4
+npm i -g miniflare
 
 # deploying railway apps
 npm i -g @railway/cli
