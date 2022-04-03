@@ -6,15 +6,9 @@
 # sign everything in codespaces
 git config --global commit.gpgsign true
 
-# development webserver for static applications
-npm i -g serve
+# node 16 > all
+nvm install 16
+nvm use --delete-prefix v16.14.2
 
-# deploying and previewing workers
-npm i -g @cloudflare/wrangler
-npm i -g miniflare
-
-# deploying railway apps
-npm i -g @railway/cli
-
-# i can handle signing in to these myself thank you very much, no need to do it here
-# actually i just noticed "Codespaces Secrets" area so i might do env vars, wow
+# need to move away from globals at some point.. 
+yarn global add serve @cloudflare/wrangler miniflare @railway/cli
